@@ -1,0 +1,45 @@
+/* 
+1. universal selector --> *
+2. tag selector  -->   
+3. id selector  --> #
+4. class selector  --> .
+5. attribute selector  --> tag[attribute]
+*/
+
+/* selector{
+        property: value
+        }  */
+h1 {
+    color: rgb(210, 30, 111);
+    text-transform:uppercase;
+    text-decoration: underline ;
+}
+
+/* id selector */
+
+/* #title {
+    color: blue;
+} */
+
+/* #myList{
+    color: rgb(0, 179, 255);
+} */
+
+/* class selector */
+
+.odd{
+    color: darkred;
+}
+.even{
+    color:lime;
+}
+
+/* attribute selector */
+
+a[href="https://google.com"] {
+    color: rgb(7, 33, 229);
+}
+
+a[href="https://yahoo.com"]{
+    color:darkorange
+}

@@ -10,11 +10,25 @@
         property: value
         }  */
 h1 {
-    color: rgb(210, 30, 111);
+    color: rgb(57, 30, 210);
     text-transform:uppercase;
     text-decoration: underline ;
+
 }
 
+#title2 {
+    color: sandybrown;
+    font-family: "Roboto", sans-serif;
+}
+
+@font-face {
+    font-family: bangla font;
+    src: url(../css/fonts/Li\ Shohid\ Tahmid\ Tamin\ Unicode.ttf);
+}
+
+.Bangla{
+    font-family: bangla font;
+}
 /* id selector */
 
 /* #title {

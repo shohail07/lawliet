@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+nav img {
+  width: 200px;
+}
+
+/* header start */
+.header {
+  background-image: url("../img/page-title.jpg");
+  background-repeat: no-repeat;
+  height: 350px;
+}
+/* header end */
+
+/* footer start */
+footer {
+  background: #3d4451;
+}
+/* footer end */
